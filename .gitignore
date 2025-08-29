@@ -1,0 +1,39 @@
+# --- Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# --- Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+# keep notebooks but consider stripping outputs (see section 7)
+
+# --- Environments
+.env
+.venv
+venv/
+env/
+.conda/
+*.conda
+*.lock
+
+# --- Data & artifacts
+data/
+!data/.gitkeep
+outputs/
+models/
+reports/
+*.csv
+
+# --- OS / tools
+.DS_Store
+Thumbs.db
+
+# --- PyCharm
+.idea/
+
+.pre-commit-config.yaml
