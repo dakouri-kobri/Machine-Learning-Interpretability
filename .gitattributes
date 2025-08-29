@@ -1,0 +1,12 @@
+* text=auto
+# Force LF in source & notebooks for cross-platform consistency
+*.py   text eol=lf
+*.ipynb text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+# Keep native Windows endings for Windows-only scripts
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
