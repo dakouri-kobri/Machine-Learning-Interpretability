@@ -6,6 +6,11 @@ __pycache__/
 *.egg-info/
 .eggs/
 *.log
+*$py.class
+*.db
+
+# pyenv
+.python-version
 
 # --- Jupyter
 .ipynb_checkpoints/
@@ -17,6 +22,9 @@ __pycache__/
 .venv
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 .conda/
 *.conda
 *.lock
@@ -28,6 +36,10 @@ outputs/
 models/
 reports/
 *.csv
+*.zip
+*.data
+*.txt
+*.labels
 
 # --- OS / tools
 .DS_Store
@@ -36,4 +48,7 @@ Thumbs.db
 # --- PyCharm
 .idea/
 
+# files not to put in repo
+Make-toy-finance-dataset.ipynb
+tbf
 .pre-commit-config.yaml
