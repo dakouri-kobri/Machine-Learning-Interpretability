@@ -1,0 +1,17 @@
+name: C:\Users\dakou\Documents\TrainInData\machine-learning-interpretability\.venv
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.12
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - statsmodels
+prefix: C:\Users\dakou\Documents\TrainInData\machine-learning-interpretability\.venv
